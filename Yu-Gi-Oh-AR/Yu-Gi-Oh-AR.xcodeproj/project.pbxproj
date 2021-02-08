@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF9E6E4725D17BCA00675037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6E4625D17BCA00675037 /* AppDelegate.swift */; };
+		AF9E6E4925D17BCA00675037 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6E4825D17BCA00675037 /* art.scnassets */; };
+		AF9E6E4B25D17BCA00675037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6E4A25D17BCA00675037 /* ViewController.swift */; };
+		AF9E6E4E25D17BCA00675037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6E4C25D17BCA00675037 /* Main.storyboard */; };
+		AF9E6E5025D17BCC00675037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6E4F25D17BCC00675037 /* Assets.xcassets */; };
+		AF9E6E5325D17BCC00675037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6E5125D17BCC00675037 /* LaunchScreen.storyboard */; };
+		AF9E6E5E25D17BCC00675037 /* Yu_Gi_Oh_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6E5D25D17BCC00675037 /* Yu_Gi_Oh_ARTests.swift */; };
+		AF9E6E6925D17BCC00675037 /* Yu_Gi_Oh_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6E6825D17BCC00675037 /* Yu_Gi_Oh_ARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9E6E5A25D17BCC00675037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E6E3B25D17BCA00675037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9E6E4225D17BCA00675037;
+			remoteInfo = "Yu-Gi-Oh-AR";
+		};
+		AF9E6E6525D17BCC00675037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E6E3B25D17BCA00675037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9E6E4225D17BCA00675037;
+			remoteInfo = "Yu-Gi-Oh-AR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF9E6E4325D17BCA00675037 /* Yu-Gi-Oh-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yu-Gi-Oh-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E6E4625D17BCA00675037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF9E6E4825D17BCA00675037 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF9E6E4A25D17BCA00675037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF9E6E4D25D17BCA00675037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF9E6E4F25D17BCC00675037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9E6E5225D17BCC00675037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF9E6E5425D17BCC00675037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9E6E5925D17BCC00675037 /* Yu-Gi-Oh-ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yu-Gi-Oh-ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E6E5D25D17BCC00675037 /* Yu_Gi_Oh_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yu_Gi_Oh_ARTests.swift; sourceTree = "<group>"; };
+		AF9E6E5F25D17BCC00675037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9E6E6425D17BCC00675037 /* Yu-Gi-Oh-ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yu-Gi-Oh-ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E6E6825D17BCC00675037 /* Yu_Gi_Oh_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yu_Gi_Oh_ARUITests.swift; sourceTree = "<group>"; };
+		AF9E6E6A25D17BCC00675037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9E6E4025D17BCA00675037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E5625D17BCC00675037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E6125D17BCC00675037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF9E6E3A25D17BCA00675037 = {
+			isa = PBXGroup;
+			children = (
+				AF9E6E4525D17BCA00675037 /* Yu-Gi-Oh-AR */,
+				AF9E6E5C25D17BCC00675037 /* Yu-Gi-Oh-ARTests */,
+				AF9E6E6725D17BCC00675037 /* Yu-Gi-Oh-ARUITests */,
+				AF9E6E4425D17BCA00675037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9E6E4425D17BCA00675037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E6E4325D17BCA00675037 /* Yu-Gi-Oh-AR.app */,
+				AF9E6E5925D17BCC00675037 /* Yu-Gi-Oh-ARTests.xctest */,
+				AF9E6E6425D17BCC00675037 /* Yu-Gi-Oh-ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9E6E4525D17BCA00675037 /* Yu-Gi-Oh-AR */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E6E4625D17BCA00675037 /* AppDelegate.swift */,
+				AF9E6E4825D17BCA00675037 /* art.scnassets */,
+				AF9E6E4A25D17BCA00675037 /* ViewController.swift */,
+				AF9E6E4C25D17BCA00675037 /* Main.storyboard */,
+				AF9E6E4F25D17BCC00675037 /* Assets.xcassets */,
+				AF9E6E5125D17BCC00675037 /* LaunchScreen.storyboard */,
+				AF9E6E5425D17BCC00675037 /* Info.plist */,
+			);
+			path = "Yu-Gi-Oh-AR";
+			sourceTree = "<group>";
+		};
+		AF9E6E5C25D17BCC00675037 /* Yu-Gi-Oh-ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E6E5D25D17BCC00675037 /* Yu_Gi_Oh_ARTests.swift */,
+				AF9E6E5F25D17BCC00675037 /* Info.plist */,
+			);
+			path = "Yu-Gi-Oh-ARTests";
+			sourceTree = "<group>";
+		};
+		AF9E6E6725D17BCC00675037 /* Yu-Gi-Oh-ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E6E6825D17BCC00675037 /* Yu_Gi_Oh_ARUITests.swift */,
+				AF9E6E6A25D17BCC00675037 /* Info.plist */,
+			);
+			path = "Yu-Gi-Oh-ARUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9E6E4225D17BCA00675037 /* Yu-Gi-Oh-AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E6E6D25D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-AR" */;
+			buildPhases = (
+				AF9E6E3F25D17BCA00675037 /* Sources */,
+				AF9E6E4025D17BCA00675037 /* Frameworks */,
+				AF9E6E4125D17BCA00675037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yu-Gi-Oh-AR";
+			productName = "Yu-Gi-Oh-AR";
+			productReference = AF9E6E4325D17BCA00675037 /* Yu-Gi-Oh-AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9E6E5825D17BCC00675037 /* Yu-Gi-Oh-ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E6E7025D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-ARTests" */;
+			buildPhases = (
+				AF9E6E5525D17BCC00675037 /* Sources */,
+				AF9E6E5625D17BCC00675037 /* Frameworks */,
+				AF9E6E5725D17BCC00675037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9E6E5B25D17BCC00675037 /* PBXTargetDependency */,
+			);
+			name = "Yu-Gi-Oh-ARTests";
+			productName = "Yu-Gi-Oh-ARTests";
+			productReference = AF9E6E5925D17BCC00675037 /* Yu-Gi-Oh-ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF9E6E6325D17BCC00675037 /* Yu-Gi-Oh-ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E6E7325D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-ARUITests" */;
+			buildPhases = (
+				AF9E6E6025D17BCC00675037 /* Sources */,
+				AF9E6E6125D17BCC00675037 /* Frameworks */,
+				AF9E6E6225D17BCC00675037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9E6E6625D17BCC00675037 /* PBXTargetDependency */,
+			);
+			name = "Yu-Gi-Oh-ARUITests";
+			productName = "Yu-Gi-Oh-ARUITests";
+			productReference = AF9E6E6425D17BCC00675037 /* Yu-Gi-Oh-ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9E6E3B25D17BCA00675037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF9E6E4225D17BCA00675037 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AF9E6E5825D17BCC00675037 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF9E6E4225D17BCA00675037;
+					};
+					AF9E6E6325D17BCC00675037 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF9E6E4225D17BCA00675037;
+					};
+				};
+			};
+			buildConfigurationList = AF9E6E3E25D17BCA00675037 /* Build configuration list for PBXProject "Yu-Gi-Oh-AR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF9E6E3A25D17BCA00675037;
+			productRefGroup = AF9E6E4425D17BCA00675037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9E6E4225D17BCA00675037 /* Yu-Gi-Oh-AR */,
+				AF9E6E5825D17BCC00675037 /* Yu-Gi-Oh-ARTests */,
+				AF9E6E6325D17BCC00675037 /* Yu-Gi-Oh-ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9E6E4125D17BCA00675037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E6E4925D17BCA00675037 /* art.scnassets in Resources */,
+				AF9E6E5325D17BCC00675037 /* LaunchScreen.storyboard in Resources */,
+				AF9E6E5025D17BCC00675037 /* Assets.xcassets in Resources */,
+				AF9E6E4E25D17BCA00675037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E5725D17BCC00675037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E6225D17BCC00675037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9E6E3F25D17BCA00675037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E6E4B25D17BCA00675037 /* ViewController.swift in Sources */,
+				AF9E6E4725D17BCA00675037 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E5525D17BCC00675037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E6E5E25D17BCC00675037 /* Yu_Gi_Oh_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E6E6025D17BCC00675037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E6E6925D17BCC00675037 /* Yu_Gi_Oh_ARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9E6E5B25D17BCC00675037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9E6E4225D17BCA00675037 /* Yu-Gi-Oh-AR */;
+			targetProxy = AF9E6E5A25D17BCC00675037 /* PBXContainerItemProxy */;
+		};
+		AF9E6E6625D17BCC00675037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9E6E4225D17BCA00675037 /* Yu-Gi-Oh-AR */;
+			targetProxy = AF9E6E6525D17BCC00675037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF9E6E4C25D17BCA00675037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E6E4D25D17BCA00675037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF9E6E5125D17BCC00675037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E6E5225D17BCC00675037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9E6E6B25D17BCC00675037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9E6E6C25D17BCC00675037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9E6E6E25D17BCC00675037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JULFT3Z5HK;
+				INFOPLIST_FILE = "Yu-Gi-Oh-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF9E6E6F25D17BCC00675037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JULFT3Z5HK;
+				INFOPLIST_FILE = "Yu-Gi-Oh-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF9E6E7125D17BCC00675037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F47V367V2;
+				INFOPLIST_FILE = "Yu-Gi-Oh-ARTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yu-Gi-Oh-AR.app/Yu-Gi-Oh-AR";
+			};
+			name = Debug;
+		};
+		AF9E6E7225D17BCC00675037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F47V367V2;
+				INFOPLIST_FILE = "Yu-Gi-Oh-ARTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yu-Gi-Oh-AR.app/Yu-Gi-Oh-AR";
+			};
+			name = Release;
+		};
+		AF9E6E7425D17BCC00675037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F47V367V2;
+				INFOPLIST_FILE = "Yu-Gi-Oh-ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yu-Gi-Oh-AR";
+			};
+			name = Debug;
+		};
+		AF9E6E7525D17BCC00675037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F47V367V2;
+				INFOPLIST_FILE = "Yu-Gi-Oh-ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennin.dev.yugiohar.Yu-Gi-Oh-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yu-Gi-Oh-AR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9E6E3E25D17BCA00675037 /* Build configuration list for PBXProject "Yu-Gi-Oh-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E6E6B25D17BCC00675037 /* Debug */,
+				AF9E6E6C25D17BCC00675037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E6E6D25D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E6E6E25D17BCC00675037 /* Debug */,
+				AF9E6E6F25D17BCC00675037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E6E7025D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E6E7125D17BCC00675037 /* Debug */,
+				AF9E6E7225D17BCC00675037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E6E7325D17BCC00675037 /* Build configuration list for PBXNativeTarget "Yu-Gi-Oh-ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E6E7425D17BCC00675037 /* Debug */,
+				AF9E6E7525D17BCC00675037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF9E6E3B25D17BCA00675037 /* Project object */;
+}
